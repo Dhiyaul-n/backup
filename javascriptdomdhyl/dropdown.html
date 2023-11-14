@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="dropdown.css">
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home"><h2>Home</h2></a>
+  <a href="#about"><h2>about</h2></a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()"><h2>Kelas</h2></button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#article1"><h3>pplg 1</h3></a>
+    <a href="#article2"><h3>pplg 2</h3></a>
+    <a href="#article3"><h3>pplg 3</h3></a>
+    <a href="#article3"><h3>pplg 4</h3></a>
+  </div>
+  </div> 
+</div>
+
+<div class="content">
+  <div id="about"><h1>perpus digital</h1></div>
+  <div id="absen">
+    <div class="table-wrapper">
+
+      <table class="table-siswa">
+          <thead>
+              <tr>
+                  <td rowspan="2">No</td>
+                  <td rowspan="2">Nama</td>
+                  <td rowspan="2">L/P</td>
+                  <td rowspan="2">ID</td>
+                  <td colspan="31" class="text-center">Tanggal</td>
+                  <td colspan="2">Jumlah</td>
+              </tr>
+              <tr class="table-row-head">
+                <td>Hadir</td>
+                <td>Tidak Hadir</td>
+              </tr>
+            </thead>
+            <tbody class="table-body-content">
+              <tr data-id="001">
+                  <td>1</td>
+                  <td>Adi</td>
+                  <td>L</td>
+                  <td>001</td>
+              </tr>
+              <tr data-id="002">
+                  <td>2</td>
+                  <td>Budi</td>
+                  <td>L</td>
+                  <td>002</td>
+              </tr>
+              <tr data-id="003">
+                  <td>3</td>
+                  <td>Wati</td>
+                  <td>P</td>
+                  <td>003</td>
+              </tr>
+          </tbody>
+      </table>
+  
+  
+  </div>
+  
+  <h2>Keterangan</h2>
+  
+  <ul>
+      <li><span class="box-color true"></span> Hadir</li>
+      <li><span class="box-color false"></span> Tidak Hadir</li>
+  </ul>
+  </div>
+  <div id="article1"><h1>Article 1</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa id facilisis tristique. Praesent eu luctus justo, eget ornare quam. Quisque efficitur rhoncus lorem, id rutrum dolor tincidunt sed. Cras rutrum nibh ut condimentum aliquam. Donec blandit tristique dolor non lacinia. Donec non gravida ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras interdum sem maximus aliquet efficitur.
+
+    Sed posuere tristique magna eget posuere. Maecenas ligula felis, venenatis eget nisl at, condimentum pretium sapien. Sed molestie dapibus mi, at dictum magna ornare ut. Nulla malesuada egestas bibendum. Curabitur egestas turpis nec erat malesuada, a ornare libero sagittis. Sed sed elit facilisis, varius lorem congue, vestibulum leo. Vestibulum eros leo, rhoncus non metus non, finibus rhoncus diam. Proin sit amet varius lectus. Maecenas elementum feugiat est, vitae faucibus nisl viverra eu. Suspendisse fringilla sed orci ut vulputate. Aliquam volutpat placerat varius.
+    
+    Etiam lacinia a ligula id dapibus. Morbi volutpat elementum tempor. Pellentesque consequat ex et volutpat ultrices. Integer vel cursus est. Quisque tincidunt dui nulla, in efficitur felis tincidunt vitae. Pellentesque eget felis congue, mattis massa sed, mattis ligula. Cras vestibulum neque quis sem bibendum, ut semper ligula convallis. Vestibulum eu lobortis dolor.
+    
+    Integer sit amet neque eget felis bibendum dapibus at ac risus. Proin porta fringilla urna ut convallis. Duis gravida felis scelerisque blandit congue. Mauris mattis tellus a nunc suscipit, ut ullamcorper libero pretium. Fusce non nulla malesuada, accumsan erat in, bibendum ex. Phasellus eros velit, malesuada eget velit et, varius sollicitudin ante. Nullam laoreet purus sit amet justo lobortis tempor. Donec ac feugiat nisi. Donec feugiat odio sit amet aliquet pharetra. Nulla et malesuada eros.
+    
+    Aenean vel tincidunt dolor. Vivamus cursus eros ut nisi feugiat scelerisque id porta mauris. Nunc tempus vitae neque non euismod. Nullam molestie eros sit amet aliquet posuere. Mauris aliquet condimentum tincidunt. Nulla vel vestibulum metus. Nam sit amet auctor diam. Donec ac mollis nibh, quis dignissim sapien.
+    
+    Generated 5 paragraphs, 318 words, 2172 bytes of Lorem Ipsum</p></div>
+    
+  <div id="article2"><h1>Article 2</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa id facilisis tristique. Praesent eu luctus justo, eget ornare quam. Quisque efficitur rhoncus lorem, id rutrum dolor tincidunt sed. Cras rutrum nibh ut condimentum aliquam. Donec blandit tristique dolor non lacinia. Donec non gravida ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras interdum sem maximus aliquet efficitur.
+
+    Sed posuere tristique magna eget posuere. Maecenas ligula felis, venenatis eget nisl at, condimentum pretium sapien. Sed molestie dapibus mi, at dictum magna ornare ut. Nulla malesuada egestas bibendum. Curabitur egestas turpis nec erat malesuada, a ornare libero sagittis. Sed sed elit facilisis, varius lorem congue, vestibulum leo. Vestibulum eros leo, rhoncus non metus non, finibus rhoncus diam. Proin sit amet varius lectus. Maecenas elementum feugiat est, vitae faucibus nisl viverra eu. Suspendisse fringilla sed orci ut vulputate. Aliquam volutpat placerat varius.
+    
+    Etiam lacinia a ligula id dapibus. Morbi volutpat elementum tempor. Pellentesque consequat ex et volutpat ultrices. Integer vel cursus est. Quisque tincidunt dui nulla, in efficitur felis tincidunt vitae. Pellentesque eget felis congue, mattis massa sed, mattis ligula. Cras vestibulum neque quis sem bibendum, ut semper ligula convallis. Vestibulum eu lobortis dolor.
+    
+    Integer sit amet neque eget felis bibendum dapibus at ac risus. Proin porta fringilla urna ut convallis. Duis gravida felis scelerisque blandit congue. Mauris mattis tellus a nunc suscipit, ut ullamcorper libero pretium. Fusce non nulla malesuada, accumsan erat in, bibendum ex. Phasellus eros velit, malesuada eget velit et, varius sollicitudin ante. Nullam laoreet purus sit amet justo lobortis tempor. Donec ac feugiat nisi. Donec feugiat odio sit amet aliquet pharetra. Nulla et malesuada eros.
+    
+    Aenean vel tincidunt dolor. Vivamus cursus eros ut nisi feugiat scelerisque id porta mauris. Nunc tempus vitae neque non euismod. Nullam molestie eros sit amet aliquet posuere. Mauris aliquet condimentum tincidunt. Nulla vel vestibulum metus. Nam sit amet auctor diam. Donec ac mollis nibh, quis dignissim sapien.
+    
+    Generated 5 paragraphs, 318 words, 2172 bytes of Lorem Ipsum</p></div>
+  <div id="article3"><h1>Article 3</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa id facilisis tristique. Praesent eu luctus justo, eget ornare quam. Quisque efficitur rhoncus lorem, id rutrum dolor tincidunt sed. Cras rutrum nibh ut condimentum aliquam. Donec blandit tristique dolor non lacinia. Donec non gravida ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras interdum sem maximus aliquet efficitur.
+
+    Sed posuere tristique magna eget posuere. Maecenas ligula felis, venenatis eget nisl at, condimentum pretium sapien. Sed molestie dapibus mi, at dictum magna ornare ut. Nulla malesuada egestas bibendum. Curabitur egestas turpis nec erat malesuada, a ornare libero sagittis. Sed sed elit facilisis, varius lorem congue, vestibulum leo. Vestibulum eros leo, rhoncus non metus non, finibus rhoncus diam. Proin sit amet varius lectus. Maecenas elementum feugiat est, vitae faucibus nisl viverra eu. Suspendisse fringilla sed orci ut vulputate. Aliquam volutpat placerat varius.
+    
+    Etiam lacinia a ligula id dapibus. Morbi volutpat elementum tempor. Pellentesque consequat ex et volutpat ultrices. Integer vel cursus est. Quisque tincidunt dui nulla, in efficitur felis tincidunt vitae. Pellentesque eget felis congue, mattis massa sed, mattis ligula. Cras vestibulum neque quis sem bibendum, ut semper ligula convallis. Vestibulum eu lobortis dolor.
+    
+    Integer sit amet neque eget felis bibendum dapibus at ac risus. Proin porta fringilla urna ut convallis. Duis gravida felis scelerisque blandit congue. Mauris mattis tellus a nunc suscipit, ut ullamcorper libero pretium. Fusce non nulla malesuada, accumsan erat in, bibendum ex. Phasellus eros velit, malesuada eget velit et, varius sollicitudin ante. Nullam laoreet purus sit amet justo lobortis tempor. Donec ac feugiat nisi. Donec feugiat odio sit amet aliquet pharetra. Nulla et malesuada eros.
+    
+    Aenean vel tincidunt dolor. Vivamus cursus eros ut nisi feugiat scelerisque id porta mauris. Nunc tempus vitae neque non euismod. Nullam molestie eros sit amet aliquet posuere. Mauris aliquet condimentum tincidunt. Nulla vel vestibulum metus. Nam sit amet auctor diam. Donec ac mollis nibh, quis dignissim sapien.
+    
+    Generated 5 paragraphs, 318 words, 2172 bytes of Lorem Ipsum</p></div>
+</div>
+<script src="dropdown.js"></script>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("drop");
+}
+</script>
+</body>
+</html>
